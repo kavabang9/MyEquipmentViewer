@@ -23,11 +23,25 @@ local slots = {
 
 -- Перевод названий слотов (для отображения, если предмет не одет)
 local slotNamesRU = {
-    HeadSlot = "Голова", NeckSlot = "Шея", ShoulderSlot = "Плечи", ShirtSlot = "Рубашка",
-    ChestSlot = "Грудь", WaistSlot = "Пояс", LegsSlot = "Ноги", FeetSlot = "Обувь",
-    WristSlot = "Запястья", HandsSlot = "Руки", Finger0Slot = "Кольцо 1", Finger1Slot = "Кольцо 2",
-    Trinket0Slot = "Аксессуар 1", Trinket1Slot = "Аксессуар 2", BackSlot = "Спина",
-    MainHandSlot = "Правая рука", SecondaryHandSlot = "Левая рука", RangedSlot = "Дальний бой", TabardSlot = "Накидка"
+    HeadSlot = "Голова", 
+    NeckSlot = "Шея", 
+    ShoulderSlot = "Плечи", 
+    ShirtSlot = "Рубашка",
+    ChestSlot = "Грудь", 
+    WaistSlot = "Пояс", 
+    LegsSlot = "Ноги", 
+    FeetSlot = "Обувь",
+    WristSlot = "Запястья", 
+    HandsSlot = "Кисти рук", 
+    Finger0Slot = "Кольцо 1", 
+    Finger1Slot = "Кольцо 2",
+    Trinket0Slot = "Аксессуар 1", 
+    Trinket1Slot = "Аксессуар 2", 
+    BackSlot = "Спина",
+    MainHandSlot = "Правая рука", 
+    SecondaryHandSlot = "Левая рука", 
+    RangedSlot = "Дальний бой", 
+    TabardSlot = "Накидка"
 }
 
 local MyEquipmentFrame = nil
@@ -142,4 +156,5 @@ local f = CreateFrame("Frame")
 f:RegisterEvent("PLAYER_LOGIN")
 f:SetScript("OnEvent", function()
     CreateEquipmentFrame()
+
 end)
