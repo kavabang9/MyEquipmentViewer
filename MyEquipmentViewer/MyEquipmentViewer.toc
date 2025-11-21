@@ -1,7 +1,8 @@
 ## Interface: 11200
 ## Title: My Equipment Viewer
-## Notes: Показывает экипировку персонажа в отдельном окне
-## Author: YourName
+## Notes: Показывает экипировку персонажа в отдельном окне.
+## Author: kavabang9
 ## Version: 1.2
 
 MyEquipmentViewer.lua
+
