@@ -5,4 +5,3 @@
 ## Version: 1.2
 
 MyEquipmentViewer.lua
-
