@@ -32,7 +32,7 @@ local slotNamesRU = {
 	LegsSlot          = "Ноги",
 	FeetSlot          = "Обувь",
 	WristSlot         = "Запястья",
-	HandsSlot         = "Кисти рук", -- Изменено по вашему запросу
+	HandsSlot         = "Кисти рук",
 	Finger0Slot       = "Кольцо 1",
 	Finger1Slot       = "Кольцо 2",
 	Trinket0Slot      = "Аксессуар 1",
@@ -179,3 +179,4 @@ loader:SetScript("OnEvent", function()
 		end
 	end
 end)
+
