@@ -2,6 +2,6 @@
 ## Title: My Equipment Viewer
 ## Notes: Показывает экипировку персонажа в отдельном окне
 ## Author: YourName
-## Version: 1.0
+## Version: 1.2
 
 MyEquipmentViewer.lua
